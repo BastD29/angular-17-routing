@@ -1,0 +1,8 @@
+<button (click)="goBack()">Go back to product list</button>
+
+<p>Product detail</p>
+
+<div *ngIf="product">
+  <p>{{ product.name }}</p>
+  <p>{{ product.description }}</p>
+</div>
